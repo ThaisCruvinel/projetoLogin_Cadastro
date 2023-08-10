@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+}
+body{
+    background-image: url("../assets/alternativa.png");
+    background-size: cover;
+}
+textarea, input{
+    background-color: transparent;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+a,label{
+    font-size: 1rem;
+    font-weight: bold;
+}
+a:hover{
+    color: #CD0404;
+}
+/*container-login*/
+#container-login{
+    background: linear-gradient( 90deg, #FEB692, #EA5455 );
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+/*formulário*/
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+label,input{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+label{
+    font-weight: bold;
+}
+input{
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 22px;
+}
+input:focus{
+    border-bottom: 2px solid #CD0404;
+}
+#senha-esquecida{
+    text-align: right;
+    display: block;
+    font-weight: bold;
+}
+input[type="submit"]{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #CD1818;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #B70404;
+    transition: .5s;
+}
+/*redes sociais*/
+#container-redes, #container-redes p{
+    margin-bottom: 20px;
+}
+#container-redes i{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #fff;
+    margin: 0 5px;
+}
+.fa-instagram{
+    background:  radial-gradient( circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf );
+}
+.fa-facebook{
+    background-color: #3b5998; 
+}
+.fa-google{
+    background-color: #0002a1;
+}
+/*registrar*/
+#container-registro p{
+    margin-bottom: 10px;
+}
